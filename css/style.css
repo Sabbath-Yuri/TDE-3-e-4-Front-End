@@ -1,17 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
 
 
-@media (min-width: 480px) and (max-width: 1920px) {
-    body {
-      font-size: 16px;
-    }
-  
-    .container {
-      padding: 15px;
-      max-width: 800px;
-      margin: auto;
-    }
-  }
+@media (max-width: 1900px) {
 
     html {
         background-color: #336600;
@@ -339,13 +329,4 @@
     .social__link:hover::after {
         display: inline-block;
     }
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .container {
-        width: 90%;
-        margin: 0 auto;
-    }
+}
